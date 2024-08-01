@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+*{
+    text-align: center;
+    
+    font-family: "Oswald", sans-serif;
+}
+h3{
+    
+    margin: 50px;
+}
+p{
+    display: inline;
+    margin: 10px;
+    
+    
+}
+
+.fn,.ln,.db,.ei,.mn{
+    margin-left: 10px;
+    
+}
