@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Qwitcher+Grypen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background-color: rgb(134, 134, 219);
+    height: 30px;
+    width: 100%;
+    
+}
+
+.sel,.con{
+    float:right; 
+}
+.sel{
+    margin-right: 20px;
+}
+.con:hover{
+    cursor: pointer;
+    color: white;
+}
+.three{
+    
+    display:inline;
+    column-gap: 30px;
+   
+}
+#hm:hover{
+    cursor: pointer;
+    color: white;
+}
+#py,#hm,#dl{
+    
+    padding:10px;
+    display:inline;
+}
+
+#py:hover{
+    cursor: pointer;
+    color: white;
+
+}
+#dl:hover{
+    cursor: pointer;
+    color: white;
+
+}
+.login img{
+    height: 50px;
+    width: 50px;
+}
+#boz,#be{
+    display: inline-flex;
+    
+}
+#be{
+    height: 10px;
+    width: 10px;
+    padding-left: 60px;
+    padding-top: 10px;
+    font-family: "Oswald", system-ui;
+    color: rgb(217, 103, 22);
+}
+.sr{
+    padding-left: 120px;
+    display: inline;
+}
+input{
+    
+    height: 30px;
+    width: 400px;
+    
+}
+button{
+    color: rgb(238, 238, 246);
+    height: 30px;
+    width: 30px;
+    background-color: rgb(86, 28, 140);
+}
+.cr{
+    margin-left: 40%;
+    border-radius: 15px;
+}
+.pr{
+    margin-left: 10px;
+    border-radius: 15px;
+}
+.pr:hover{
+    cursor: pointer;
+}
+.cr:hover{
+    cursor: pointer;
+}
+.rs:hover{
+    cursor: pointer;
+}
+h4,.pr,#sg,#re{
+    display: inline;
+}
+h4{
+    font-family: "Playfair Display", serif;
+}
+#sg:hover{
+    cursor: pointer;
+    color: rgb(226, 74, 74);
+}
+#re:hover{
+    cursor: pointer;
+    color:rgb(226, 74, 74);
+}
+.set{
+    
+    background-color: rgb(111, 35, 39);
+    height: 50px;
+    width: 100%;
+}
+
+.set a{
+    text-decoration: none;
+    color: rgb(246, 240, 240);
+    font-family: "Bodoni Moda SC", serif;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.op{
+    
+    display:flex;
+    justify-content: space-between;
+    margin: 2px;
+    padding-right: 5px;
+    list-style: none;
+    padding-top: 7px;
+
+}
+.op li a{
+    transition: 0.5s;
+}
+.op li a:hover{
+    cursor: pointer;
+    color:rgb(255, 119, 0);
+}
+.active {
+    position: absolute;
+    font-weight: lighter;
+    max-height: 0px;
+    overflow: hidden;
+    background-color: gray;
+    min-width: 170px;
+}
+.act ul{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+.act ul li a{
+    display: block;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+.act ul li a:hover{
+    background-color: white;
+}
+.sec:focus{
+    background-color: brown;
+}
+.sec:focus ~ .active{
+    max-height: 400px;
+    transition: 0.5s;
+}
+.banner{
+    text-align: center;
+    padding: 50px;
+    background:linear-gradient(270deg ,rgba(61, 91, 213, 0.875),rgb(152, 26, 118));
+    height: 100px;
+    width: 80%;
+    margin: 30px 100px;
+    color: rgb(198, 219, 220);
+}
+.banner h3{
+    font-size: 30px;
+    font-family: "Anton", sans-serif;
+}
+.banner p{
+    padding: 10px;
+}
+.details{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    border:black 1px solid;
+    height: 150px;
+    width: 80%;
+    margin-left: 150px;
+    padding-top: 15px;
+    
+    
+}
+.deli{
+    text-align: center;
+    
+}
+.lock{
+    float:right ;
+}
+.bank{
+    height: 5px;
+}
+#fd,#bk,#lk{
+    height: 2px;
+    width: 300px;
+    font-weight: lighter;
+}
+.products img{
+    height: 250px;
+    width: 250px;
+    
+}
+.products h3{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 180px;
+    font-family: "Anton", sans-serif;
+    font-weight: lighter;
+
+}
+.pro{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 50px;
+}
+.checked {
+    color: orange;
+}
+.shirt{
+    border: black 1px solid;
+    height: 320px;
+    width: 250px;
+}
+#star{
+    font-weight: lighter;
+    font-size: small;
+    
+}
+#dis,#star,#price{
+    padding: 2px;
+    margin-left: 10px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.hoodie{
+    border: black 1px solid;
+    height: 320px;
+    width: 250px;
+}
+.trouser{
+    border: black 1px solid;
+    height: 320px;
+    width: 250px;
+}
+.bag{
+    border: black 1px solid;
+    height: 320px;
+    width: 250px;
+}
+.new img{
+    height: 150px;
+    width: 150px;
+    padding: 40px;
+    padding-left: 30px;
+    
+}
+.arr{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 50px;
+}
+.new h3{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 180px;
+    font-family: "Anton", sans-serif;
+    font-weight: lighter;
+
+}
+.lap{
+    border: black 1px solid;
+    height: 320px;
+    width: 250px;
+}
+.sofa{
+    border: black 1px solid;
+    height: 320px;
+    width: 250px;
+}
+.watch{
+    border: black 1px solid;
+    height: 320px;
+    width: 250px;
+}
+.st{
+    border: black 1px solid;
+    height: 320px;
+    width: 250px;
+}
